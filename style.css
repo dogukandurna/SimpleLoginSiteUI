@@ -1,0 +1,162 @@
+body{
+    background-color: #FFFFFF;
+    max-width: 1440;
+}
+
+.sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 400px;
+    height: 100%;
+    background-image: linear-gradient(#FFAE01, #FF8000);
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .25);
+}
+
+.title{
+    font-weight: 100;
+    font-size: 36px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: -2px;
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+    font-weight: 400;
+}
+
+.maincontent{
+    color: #FED799;
+}
+
+.content h1{
+    font-weight:bolder;
+    font-size: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 350px;
+}
+
+.content{
+    margin-top: 150px;
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 350px;
+    text-align: center;
+}
+
+.content p{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    width: 290px;
+    font-size: 16px;
+}
+
+p.maincontent{
+    padding-left: 65px;
+    margin-top: 30px;
+}
+
+.socialbar a{
+    color: #f5c696;
+    font-size: 10px;
+    text-decoration: none;
+}
+
+.links{
+    display: inline-block;
+    margin: 0;
+}
+
+.socialbar{
+    text-align: center;
+    margin-top: 220px;
+}
+
+#link1::after{
+    content: ' |';
+    font-size: 18px;
+    color: #f5c696;
+    padding: 4px;
+}
+
+.loginform{
+    position: absolute;
+    left: 720px;
+    top: 175px;
+    background-color: white;
+    height: 420px;
+    width: 450px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 7px 7px rgba(0, 0, 0, .10);
+}
+
+.loginform h2{
+    color: black;
+    text-align: center;
+    font-size: 36px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.formgroup{
+    margin-bottom: 25px;
+}
+
+#Email{
+    margin-top: 10px;
+}
+
+.formcontrol{
+    padding: 10px;
+    color: #646464;
+    border-radius: 5px;
+    width: 250px;
+    left: 92px;
+    position: relative;
+    background-color: #F5F3F3;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.formcontrol:focus{
+    border: none;
+}
+
+.formcontrol::placeholder{
+    opacity: 0.6;
+}
+
+.btn {
+    background-image: linear-gradient(#006EFF,#00A5FF);
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 175px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 30px;
+    position: relative;
+    left: 140px;
+}
+
+.HaveAccount{
+    position: absolute;
+    left: 871px;
+    top: 600px;
+    padding-left: 10px;
+}
+
+.HaveAccount a{
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #646464;
+    font-weight: 500;
+    opacity: 0.37;
+    text-decoration: none;
+}
